@@ -1,0 +1,105 @@
+{
+    "status": {
+        "code": 10000,
+        "description": "Ok",
+        "req_id": "9949720da3c0eedc0a0e0906e708e203"
+    },
+    "outputs": [
+        {
+            "id": "884a44ae0b7c4d4b832d04ca9a41b900",
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            },
+            "created_at": "2023-07-19T11:31:02.347514785Z",
+            "model": {
+                "id": "face-detection",
+                "name": "Face",
+                "created_at": "2020-11-25T16:50:24.453038Z",
+                "modified_at": "2022-10-11T17:30:18.021257Z",
+                "app_id": "main",
+                "model_version": {
+                    "id": "6dc7e46bc9124c5c8824be4822abe105",
+                    "created_at": "2021-03-04T17:40:26.081729Z",
+                    "status": {
+                        "code": 21100,
+                        "description": "Model is trained and ready"
+                    },
+                    "visibility": {
+                        "gettable": 50
+                    },
+                    "app_id": "main",
+                    "user_id": "clarifai",
+                    "metadata": {}
+                },
+                "user_id": "clarifai",
+                "model_type_id": "visual-detector",
+                "visibility": {
+                    "gettable": 50
+                },
+                "toolkits": [],
+                "use_cases": [],
+                "languages": [],
+                "languages_full": [],
+                "check_consents": [],
+                "workflow_recommended": false
+            },
+            "input": {
+                "id": "adcab8fdef314b018e162c55c0c8b429",
+                "data": {
+                    "image": {
+                        "url": "https://samples.clarifai.com/metro-north.jpg"
+                    }
+                }
+            },
+            "data": {
+                "regions": [
+                    {
+                        "id": "2ac687215ba963a8935d484f8a0349f3",
+                        "region_info": {
+                            "bounding_box": {
+                                "top_row": 0.5015589,
+                                "left_col": 0.66214144,
+                                "bottom_row": 0.5226544,
+                                "right_col": 0.6744466
+                            }
+                        },
+                        "data": {
+                            "concepts": [
+                                {
+                                    "id": "ai_b1b1b1b1",
+                                    "name": "BINARY_POSITIVE",
+                                    "value": 0.92902935,
+                                    "app_id": "main"
+                                }
+                            ]
+                        },
+                        "value": 0.92902935
+                    },
+                    {
+                        "id": "04f26a25f98b7e035ad44704b54e3c7e",
+                        "region_info": {
+                            "bounding_box": {
+                                "top_row": 0.50652677,
+                                "left_col": 0.6906681,
+                                "bottom_row": 0.52235913,
+                                "right_col": 0.700567
+                            }
+                        },
+                        "data": {
+                            "concepts": [
+                                {
+                                    "id": "ai_b1b1b1b1",
+                                    "name": "BINARY_POSITIVE",
+                                    "value": 0.5984605,
+                                    "app_id": "main"
+                                }
+                            ]
+                        },
+                        "value": 0.5984605
+                    }
+                ]
+            }
+        }
+    ]
+}
