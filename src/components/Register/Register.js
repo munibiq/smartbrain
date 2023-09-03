@@ -21,7 +21,7 @@ class Register extends React.Component {
         this.setState({ password: event.target.value})
     }
     onSubmitSignIn = () => {
-        fetch('https://smapi.cyclic.app:3000/register', {
+        fetch('https://smapi.cyclic.app/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
