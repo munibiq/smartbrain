@@ -37,7 +37,7 @@ class SignIn extends React.Component {
         return (
             <article className=" center shadow-4 mw5 mw6-ns hidden ba br2 mv4 backfilter">
                 <main className="pa4 black-80 backfilter">
-                    <div className="measure">
+                    <div className="measure backfilter">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0 backfilter">
                         <legend className="f2 fw6 ph0 mh0 center">Smartbrain</legend>
                         <div className="mt3">
