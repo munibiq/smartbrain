@@ -1,3 +1,4 @@
 .cardfilter {
+    background-color:rgba(0, 0, 0, 0.098);
     backdrop-filter: blur(10px);
 }
