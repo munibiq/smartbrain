@@ -124,7 +124,7 @@ class App extends Component {
     //   },
     //   body: raw
     // };    
-    fetch('https://smapi.cyclic.app:3000/imageurl' , {
+    fetch('https://smapi.cyclic.app/imageurl' , {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -138,7 +138,7 @@ class App extends Component {
         this.displayFaceBox(faceBoxes);
 
           if (faceBoxes && this.state.user.id) {
-            fetch('https://smapi.cyclic.app:3000/image', {
+            fetch('https://smapi.cyclic.app/image', {
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
